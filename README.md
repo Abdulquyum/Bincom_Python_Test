@@ -4,8 +4,11 @@
 
 #### Instruction to retrieve the Answers -
 
-clone this repo
-run each file attached to each questions to get their answers
+###### - clone this repo
+
+###### - run each file attached to each questions to get their answers
+
+##### - pip install sqlalchemy psycopg2-binary
 
 #### Challenge:
 

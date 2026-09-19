@@ -3,7 +3,7 @@
 import statistics
 from collections import Counter
 
-shirt_colors = [
+tshirt_colors = [
     "green",
     "yellow",
     "blue",
@@ -65,7 +65,10 @@ red_probability = red_count / total_count if total_count > 0 else 0
 
 print(f'red_probability: {red_probability}')
 
-#   Save the colours and their frequencies in postgresql database
+
+# Save the colours and their frequencies in postgresql database
+
+# import psycopg2
 
 # conn = psycopg2.connect(
 #     host="localhost",
